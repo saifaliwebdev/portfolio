@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavBar  -->
+    <header>
+        <nav>
+            <img src="photos/logo.png" alt="">
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home Page  -->
+        <section class="home" id="home">
+            <span class="text">Welcom To Our Profile</span> <br />
+            <span class="text first-text">Helo I'm a ↴ </span> <br />
+            <span class="text sec-text" id="two-text">Coder</span>
+        </section>
+        <button id="d-button">DOWNLOAD CV</button>
+    </header>
+    <!-- ABOUT PAGE -->
+    <section class="about" id="about">
+        <div class="about-left-side">
+            <img src="photos/man.png" alt="about-img">
+        </div>
+        <div class="about-right-side">
+            <h1>About Me</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio vitae quibusdam possimus iusto sint
+                ratione magni laborum voluptatem accusamus nemo reprehenderit quos quidem doloribus eum tempora dolores,
+                expedita provident repellat autem quam dolor quasi ipsum.
+                <br />
+                <br />
+
+                Animi officiis ad assumenda voluptas? Voluptas
+                praesentium porro magni ut alias natus pariatur molestias consequatur sit doloremque? Delectus id fugit,
+                inventore ex, tempora quo labore cupiditate, est laudantium quos molestiae possimus minima nulla in
+                adipisci aspernatur perferendis vel! Ad temporibus nobis alias quis eos quod?
+            </p>
+            <button>DOWNLOAD CV</button>
+            <a href="#home"><button class="about-button" id="about-button">PROFILE</button></a>
+        </div>
+    </section>
+    <!-- SERVICES  -->
+    <h1 class="headr-text" id="services">Services</h1>
+    <section class="services">
+        <!-- 1 -->
+        <div class="service-card">
+            <i class="fa fa-cog"></i>
+            <h3>Creativ Design</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Quo commodi libero ad quod expedita minus, unde <br />
+                ratione quas beatae sed.
+            </p>
+        </div>
+        <!-- 2 -->
+        <div class="service-card">
+            <i class="fa fa-code"></i>
+            <h3>Font Icons</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Quo commodi libero ad quod expedita minus, unde <br />
+                ratione quas beatae sed.
+            </p>
+        </div>
+        <!-- 3 -->
+        <div class="service-card">
+            <i class="fa fa-bar-chart"></i>
+            <h3>Awesome Sport</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Quo commodi libero ad quod expedita minus, unde <br />
+                ratione quas beatae sed.
+            </p>
+        </div>
+        <!-- 4 -->
+        <div class="service-card">
+            <i class="fa fa-crop"></i>
+            <h3>Clean Code</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Quo commodi libero ad quod expedita minus, unde <br />
+                ratione quas beatae sed.
+            </p>
+        </div>
+        <!-- 5 -->
+        <div class="service-card">
+            <i class="fa fa-codepen"></i>
+            <h3>Responsive Design</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Quo commodi libero ad quod expedita minus, unde <br />
+                ratione quas beatae sed.
+            </p>
+        </div>
+        <!-- 6 -->
+        <div class="service-card">
+            <i class="fa fa-pie-chart"></i>
+            <h3>BootStrap 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Quo commodi libero ad quod expedita minus, unde <br />
+                ratione quas beatae sed.
+            </p>
+        </div>
+    </section>
+
+    <!-- counter section  -->
+    <section class="counter">
+        <div class="flex">
+            <div class="s1">
+                <i class="fa fa-skyatlas"></i>
+                <h1 class="counter-data" id="HappyClients">0</h1>
+                <h4>Happy Clients</h4>
+            </div>
+
+            <div class="s1">
+                <i class="fa fa-heart"></i>
+                <h1 class="counter-data" id="ProjectCompleat">0</h1>
+                <h4>Project Compleat</h4>
+            </div>
+
+            <div class="s1">
+                <i class="fa fa-globe"></i>
+                <h1 class="counter-data" id="FilesDownloded">0</h1>
+                <h4>Files Downloded</h4>
+            </div>
+
+            <div class="s1">
+                <i class="fa fa-users"></i>
+                <h1 class="counter-data" id="LinesofCode">0</h1>
+                <h4>Lines of Code</h4>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio  -->
+
+    <h1 class="headr-text" id="portfolio">Portfolio</h1>
+    <section class="filert-gallery" id="offer">
+        <div class="filter-opctions">
+            <button class="filteroption active" data-filter="all">All</button>
+            <button class="filteroption" data-filter="marketing">Marketing</button>
+            <button class="filteroption" data-filter="designing">Designing</button>
+            <button class="filteroption" data-filter="development">Development</button>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item marketing">
+                <img src="photos/1.jpg" alt="img">
+                <div class="overlay">
+                    <h1>
+                        ........<br />
+                        Brex logo Brand ........
+                    </h1>
+                </div>
+            </div>
+
+            <div class="gallery-item marketing">
+                <img src="photos/2.jpg" alt="img">
+                <div class="overlay">
+                    <h1>
+                        ........<br />
+                        Brex logo Brand ........
+                    </h1>
+                </div>
+            </div>
+
+            <div class="gallery-item designing">
+                <img src="photos/3.jpg" alt="img">
+                <div class="overlay">
+                    <h1>
+                        ........<br />
+                        Brex logo Brand ........
+                    </h1>
+                </div>
+            </div>
+
+            <div class="gallery-item designing">
+                <img src="photos/4.jpg" alt="img">
+                <div class="overlay">
+                    <h1>
+                        ........<br />
+                        Brex logo Brand ........
+                    </h1>
+                </div>
+            </div>
+
+            <div class="gallery-item designing">
+                <img src="photos/5.jpg" alt="img">
+                <div class="overlay">
+                    <h1>
+                        ........<br />
+                        Brex logo Brand ........
+                    </h1>
+                </div>
+            </div>
+
+            <div class="gallery-item development">
+                <img src="photos/6.jpg" alt="img">
+                <div class="overlay">
+                    <h1>
+                        ........<br />
+                        Brex logo Brand ........
+                    </h1>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <h1 class="headr-text" id="blog">Blog</h1>
+    <section>
+        <div class="blog">
+            <div class="blogcontant">
+                <img src="photos/1.png" alt="img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam, asperiores?</p>
+                <button>order now</button>
+            </div>
+            <div class="blogcontant">
+                <img src="photos/1.png" alt="img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam, asperiores?</p>
+                <button>order now</button>
+            </div>
+            <div class="blogcontant">
+                <img src="photos/1.png" alt="img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam, asperiores?</p>
+                <button>order now</button>
+            </div>
+            <div class="blogcontant">
+                <img src="photos/1.png" alt="img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam, asperiores?</p>
+                <button>order now</button>
+            </div>
+            <div class="blogcontant">
+                <img src="photos/1.jpg" alt="img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam, asperiores?</p>
+                <button>order now</button>
+            </div>
+            <div class="blogcontant">
+                <img src="photos/1.png" alt="img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam, asperiores?</p>
+                <button>order now</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/321929d1ae.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
